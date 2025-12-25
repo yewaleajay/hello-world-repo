@@ -7,8 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-    - name: Download Dragin text file
-      uses: actions/download-artifact@v4
-    
     - name: Eco text
       run: echo "Hello, world!"
